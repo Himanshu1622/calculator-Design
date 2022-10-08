@@ -1,0 +1,307 @@
+body {
+    margin: 0px;
+}
+
+.center {
+    width: 100vw;
+    height: 100vh;
+    background-color: #808080;
+    display: flex;
+}
+
+.row {
+    margin: auto;
+    margin-left: 500px;
+    margin-top: 20px;
+    position: absolute;
+    width: 35vw;
+    background: #ffffff;
+    border-radius: 20px;
+}
+
+.cal {
+    position: absolute;
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    margin-top: 15px;
+}
+
+.cross {
+    position: absolute;
+    margin-left: 480px;
+    font-size: 28px;
+}
+
+.ca_us {
+    display: flex;
+}
+
+.cake {
+    font-style: normal;
+    margin-left: 400px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 45px;
+    color: #808080;
+}
+
+.usd {
+    font-style: normal;
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #808080;
+    margin-top: 45px;
+
+}
+
+.form {
+    width: 92%;
+    margin-left: 20px;
+    background: #F9FAFB;
+    padding: 10px;
+    margin-top: -10px;
+    text-align: right;
+    font-weight: 700;
+}
+
+.box {
+    display: flex;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#box1 {
+    background: #FED700;
+    font-weight: 700;
+    border-radius: 12px;
+    margin-left: 20px;
+    width: 120px;
+    padding-top: 6px;
+}
+
+#box2,
+#box3 {
+    background: #F8F8F8;
+    border-radius: 12px;
+    margin-left: 20px;
+    font-weight: 700;
+    width: 80px;
+    padding-top: 6px;
+}
+
+#tFrame {
+    font-family: "poppins";
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 7px;
+    color: black;
+}
+
+.Time {
+    display: flex;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#time1 {
+    background: #FED700;
+    border-radius: 20px;
+    margin-left: 20px;
+    width: 80px;
+    padding-top: 6px;
+}
+
+#time2,
+#time3,
+#time4,
+#time5 {
+    background: #F8F8F8;
+    color: #808080;
+    border-radius: 20px;
+    margin-left: 20px;
+    width: 80px;
+    padding-top: 6px;
+}
+
+
+.Tier {
+    display: flex;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#tier1 {
+    background: #FED700;
+    border-radius: 20px;
+    margin-left: 20px;
+    width: 80px;
+    padding-top: 6px;
+}
+
+#tier2,
+#tier3,
+#tier4,
+#tier5 {
+    background: #F8F8F8;
+    color: #808080;
+    border-radius: 20px;
+    margin-left: 20px;
+    width: 80px;
+    padding-top: 6px;
+}
+
+#Stier {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #808080;
+    margin-left: 25px;
+}
+
+#ROI {
+    font-family: "poppins";
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 9px;
+    color: #808080;
+    margin-left: 370px;
+}
+
+#C_K {
+    font-family: "poppins";
+    font-size: 13px;
+    font-weight: bolder;
+    color: #808080;
+    margin-left: 330px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Abtn {
+    margin-left: 35px;
+}
+
+.Cbtn {
+    margin-right: 35px;
+    background-color: white;
+
+}
+
+a {
+    font-family: "poppins";
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.Hidden-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hidden_text {
+    font-weight: 700;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.hidden_no {
+    font-weight: 700;
+    margin-right: 15px;
+    color: #FED200;
+}
+
+ul {
+    margin-top: -10px;
+    color: #808080;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.APY {
+    font-family: "poppins";
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 9px;
+    color: black;
+
+}
+
+/* switch Button css */
+
+.switch {
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+    width: 42px;
+    height: 20px;
+    margin-left: 300px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 1px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #FED200;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #FED200;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(19px);
+}
+
+/* Rounded sliders */
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
